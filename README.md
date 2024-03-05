@@ -14,7 +14,7 @@ This guide will walk you through the steps to set up the User Management System 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/vitechsys/user-management-system-api.git
+   git clone https://github.com/vi-techsys/user-management-system-api.git
 
 Navigate to the project directory in the terminal
   ##  cd your-laravel-project
