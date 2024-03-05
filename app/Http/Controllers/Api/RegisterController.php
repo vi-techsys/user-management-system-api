@@ -7,7 +7,6 @@ use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Auth;
-use Validator;
 
 class RegisterController extends BaseController
 {

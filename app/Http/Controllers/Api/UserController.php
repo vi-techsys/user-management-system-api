@@ -6,9 +6,7 @@ use App\Http\Controllers\Api\BaseController;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Auth;
-use stdClass;
 
 class UserController extends BaseController
 {
@@ -17,6 +15,7 @@ class UserController extends BaseController
         $user = Auth::user();
         return $this->sendResponse($user, 'User Profile');
     }
+
     public function listUsers(Request $request)
     {
         $perPage = $request->input('per_page', 5);
@@ -69,6 +68,7 @@ class UserController extends BaseController
         $user->save();
         return $this->sendResponse($user, 'Password changed succesfully');
     }
+    
     public function editProfile(Request $request)
     {
         $request->validate([
