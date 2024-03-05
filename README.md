@@ -32,8 +32,8 @@ Generate application key
 Run Migrations
   ##  php artisan migrate
 
-Seed the database
-  ##  php artisan db:seed
+Create a personal access client for passport
+  ## php artisan passport:install
 
 Start the server
   ##  php artisan serve
