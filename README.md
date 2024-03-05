@@ -17,30 +17,30 @@ This guide will walk you through the steps to set up the User Management System 
    git clone https://github.com/vitechsys/your-laravel-project.git
 
 Navigate to the project directory in the terminal
-    cd your-laravel-project
+  ##  cd your-laravel-project
 
 Run the following to install dependencies
-    composer install
-    npm install
+  ##  composer install
+  ##  npm install
 
 Copy the .env.example file to .env and update the database and other relevant configurations.
-    cp .env.example .env
+  ##  cp .env.example .env
 
 Generate application key
-    php artisan key:generate
+  ##  php artisan key:generate
 
 Run Migrations
-    php artisan migrate
+  ##  php artisan migrate
 
 Seed the database
-    php artisan db:seed
+  ##  php artisan db:seed
 
 Start the server
-    php artisan serve
+  ##  php artisan serve
 
 You can run all the test files using
-    php artisan test
+  ##  php artisan test
 
 Or run individual files using (testfilename.phpis the test file to run)
-    php artisan test tests/Feature/testfilename.php
+   ## php artisan test tests/Feature/testfilename.php
 
